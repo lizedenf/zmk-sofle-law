@@ -408,3 +408,5 @@ combos:
   k: '|'
 - p: [18, 20]
   k: {t: \, s: '|'}
+- p: [26, 27]
+  k: $$mdi:apple-keyboard-caps$$
