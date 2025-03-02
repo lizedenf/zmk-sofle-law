@@ -142,6 +142,11 @@
             bindings = <&kp BACKSLASH>;
             key-positions = <18 20>;
         };
+
+        caps {
+            bindings = <&kp CAPS>;
+            key-positions = <26 27>;
+        };
     };
 
     macros {
