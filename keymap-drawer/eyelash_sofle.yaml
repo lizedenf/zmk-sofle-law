@@ -214,7 +214,7 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
-  - VOLUME DOWN
+  - $$mdi:volume-low$$
   - PG UP
   - HOME
   - $$mdi:arrow-up-bold$$
@@ -227,7 +227,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
-  - PREV
+  - $$mdi:skip-previous$$
   - PG DN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -240,7 +240,7 @@ layers:
   - RGB EFF
   - RGB EFR
   - RGB SPI
-  - NEXT
+  - $$mdi:skip-next$$
   - RGB BRI
   - RGB BRD
   - Ins
