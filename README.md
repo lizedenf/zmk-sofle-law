@@ -8,4 +8,4 @@ Keymaps can also be generated via interface using https://nickcoutsos.github.io/
 
 ## Current key map
 
-<img src="keymap-drawer/eyelash_sofle.svg">
+<img src="keymap-drawer/sofle-law.svg">
