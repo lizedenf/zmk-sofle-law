@@ -91,7 +91,7 @@
 
         toggle-home-row {
             timeout-ms = <50>;
-            bindings = <&tog 2>;
+            bindings = <&tog 3>;
             key-positions = <56 60>;
         };
 
@@ -226,14 +226,14 @@
         bt-rgb-media {
             display-name = "3";
             bindings = <
-&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp LPAR   &kp RPAR          &trans
-&bt BT_CLR_ALL   &kp QMARK        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp HOME         &kp UP      &kp END    &kp MINUS         &kp EQUAL
-&kp TILDE        &trans           &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&rgb_ug RGB_SPD  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE       &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &kp C_VOL_UP       &kp F6           &kp F7           &kp F8      &kp LPAR   &kp RPAR          &trans
+&bt BT_CLR_ALL   &kp QMARK        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &kp K_VOLUME_DOWN  &kp PG_UP        &kp HOME         &kp UP      &kp END    &kp MINUS         &kp EQUAL
+&kp TILDE        &trans           &trans          &trans           &trans           &mkp MB5           &kp K_PREV         &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&rgb_ug RGB_SPD  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &kp K_NEXT         &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
+&kp C_MUTE       &trans           &trans          &trans           &trans           &trans             &kp K_PLAY_PAUSE   &trans           &trans           &trans      &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_FF C_RW>;
         };
 
         L4 {
