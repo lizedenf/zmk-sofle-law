@@ -59,8 +59,8 @@ layers:
   - {t: '$$mdi:backspace$$', h: '2'}
   - {t: '$$mdi:keyboard-space$$', h: '1'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', h: '1'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '2'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '1'}
+  - {t: '$$mdi:keyboard-return$$', h: '2'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
@@ -119,7 +119,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '0', s: )}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP 0
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -401,9 +401,7 @@ combos:
 - p: [33, 34]
   k: )
 - p: [17, 18]
-  k: '{'
-- p: [20, 21]
-  k: '}'
+  k: $$mdi:apple-keyboard-caps$$
 - p: [31, 33]
   k: '|'
 - p: [18, 20]
