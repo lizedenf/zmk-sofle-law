@@ -53,15 +53,15 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-space$$', h: '2'}
   - {t: '$$mdi:backspace$$', h: '1'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '1'}
   - {t: '$$mdi:keyboard-return$$', h: '2'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
   '1':
@@ -78,7 +78,7 @@ layers:
   - (
   - )
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
+  - {t: '-', s: _}
   - '&paragraphsym'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -406,3 +406,5 @@ combos:
   k: '|'
 - p: [18, 20]
   k: {t: \, s: '|'}
+- p: [16, 17]
+  k: {t: '-', s: _}
