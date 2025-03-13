@@ -55,22 +55,22 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:keyboard-space$$', h: '2'}
-  - {t: '$$mdi:backspace$$', h: '1'}
+  - {t: '1', h: toggle}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '1'}
-  - {t: '$$mdi:keyboard-return$$', h: '2'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '2', h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
   '1':
   - $$mdi:keyboard-esc$$
   - '&plaintiff'
-  - '&Defendant'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - F5
+  - {t: '-', s: _}
+  - +
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
@@ -79,7 +79,7 @@ layers:
   - )
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
-  - '&paragraphsym'
+  - '&sectionsym'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -92,7 +92,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - '~'
-  - '&sectionsym'
+  - '&paragraphsym'
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
@@ -122,9 +122,9 @@ layers:
   - KP 0
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -170,14 +170,14 @@ layers:
   - ':'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&emdash'
   - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '?'
   - KP MINUS
   - {t: '$$mdi:transfer$$', type: trans}
   - _
-  - '?'
+  - '&emdash'
   - <
   - '>'
   - '?'
@@ -186,11 +186,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -391,7 +391,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
 combos:
 - p: [56, 60]
-  k: {t: '3', h: toggle}
+  k: {t: '0', h: toggle}
 - p: [43, 44]
   k: {t: '[', s: '{'}
 - p: [46, 47]
@@ -401,10 +401,14 @@ combos:
 - p: [33, 34]
   k: )
 - p: [17, 18]
-  k: $$mdi:apple-keyboard-caps$$
+  k: $$mdi:alpha-w-box$$
 - p: [31, 33]
   k: '|'
 - p: [18, 20]
   k: {t: \, s: '|'}
-- p: [16, 17]
-  k: {t: '-', s: _}
+- p: [57, 59]
+  k: {t: '3', h: toggle}
+- p: [14, 15]
+  k: '&plaintiff'
+- p: [23, 24]
+  k: '&Defendant'
