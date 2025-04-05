@@ -417,3 +417,7 @@ combos:
   k: {t: '0', h: toggle}
 - p: [56, 60]
   k: {t: '1', h: toggle}
+- p: [30, 29]
+  k: {t: '-', s: _}
+- p: [34, 35]
+  k: '&emdash'
