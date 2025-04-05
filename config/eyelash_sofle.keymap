@@ -158,6 +158,16 @@
             bindings = <&tog 1>;
             key-positions = <56 60>;
         };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <30 29>;
+        };
+
+        emdash {
+            bindings = <&emdash>;
+            key-positions = <34 35>;
+        };
     };
 
     macros {
