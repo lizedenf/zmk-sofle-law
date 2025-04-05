@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_sofle}
 layers:
   '0':
   - $$mdi:keyboard-esc$$
@@ -54,15 +55,15 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
   - {t: '1', h: toggle}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '2', h: toggle}
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
   '1':
   - $$mdi:keyboard-esc$$
@@ -105,21 +106,21 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - RGB SPD
-  - '&emdash'
+  - KP 0
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: ., s: '>'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
-  - RGB BRD
-  - Ins
-  - F11
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Sft+V
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '0', s: )}
-  - KP 0
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -248,7 +249,7 @@ layers:
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -258,7 +259,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   '4':
   - $$mdi:keyboard-esc$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -406,9 +407,13 @@ combos:
   k: '|'
 - p: [18, 20]
   k: {t: \, s: '|'}
-- p: [57, 59]
+- p: [55, 61]
   k: {t: '3', h: toggle}
 - p: [14, 15]
   k: '&plaintiff'
 - p: [23, 24]
   k: '&Defendant'
+- p: [57, 59]
+  k: {t: '0', h: toggle}
+- p: [56, 60]
+  k: {t: '1', h: toggle}
