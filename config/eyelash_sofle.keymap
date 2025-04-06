@@ -148,8 +148,8 @@
             key-positions = <56 60>;
         };
 
-        layer4 {
-            bindings = <&tog 4>;
+        layer1 {
+            bindings = <&tog 1>;
             key-positions = <57 59>;
         };
 
@@ -187,6 +187,16 @@
         specialpaste {
             bindings = <&kp LC(RS(V))>;
             key-positions = <42 43>;
+        };
+
+        parasym {
+            bindings = <&paragraphsym>;
+            key-positions = <56 28 27>;
+        };
+
+        sectionsym {
+            bindings = <&sectionsym>;
+            key-positions = <56 28 29>;
         };
     };
 
@@ -250,11 +260,11 @@
 
         L1-num-nav {
             bindings = <
-&kp ESC          &plaintiff       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp PLUS     &mmv MOVE_UP     &kp F6           &kp F7     &kp F8     &kp LPAR       &kp RPAR          &trans
-&kp MINUS        &sectionsym      &kp N7            &kp N8             &kp N9     &kp SLASH    &mmv MOVE_DOWN   &kp PG_UP        &kp HOME   &kp UP     &kp END        &kp MINUS         &kp EQUAL
-&kp TILDE        &paragraphsym    &kp N4            &kp N5             &kp N6     &kp COLON    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT   &kp DOWN   &kp RIGHT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&rgb_ug RGB_SPD  &kp KP_NUMBER_0  &kp N1            &kp N2             &kp N3     &kp DOT      &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &kp LC(C)  &kp LC(V)  &kp LC(LS(V))  &kp F12           &trans
-&kp C_MUTE       &kp N0           &trans            &trans             &trans     &trans       &mkp LCLK        &trans           &trans     &trans     &trans         &trans
+&kp ESC          &plaintiff   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp PLUS     &mmv MOVE_UP     &kp F6           &kp F7     &kp F8     &kp LPAR       &kp RPAR          &trans
+&kp MINUS        &sectionsym  &kp N7            &kp N8             &kp N9     &kp SLASH    &mmv MOVE_DOWN   &kp PG_UP        &kp HOME   &kp UP     &kp END        &kp MINUS         &kp EQUAL
+&kp TILDE        &kp N0       &kp N4            &kp N5             &kp N6     &kp COLON    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT   &kp DOWN   &kp RIGHT      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&rgb_ug RGB_SPD  &kp N0       &kp N1            &kp N2             &kp N3     &kp DOT      &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &kp LC(C)  &kp LC(V)  &kp LC(LS(V))  &kp F12           &trans
+&kp C_MUTE       &kp N0       &trans            &trans             &trans     &trans       &mkp LCLK        &trans           &trans     &trans     &trans         &trans
             >;
 
             display-name = "1";
