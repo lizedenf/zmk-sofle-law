@@ -391,8 +391,6 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
 combos:
-- p: [56, 60]
-  k: {t: '0', h: toggle}
 - p: [43, 44]
   k: {t: '[', s: '{'}
 - p: [46, 47]
@@ -413,10 +411,10 @@ combos:
   k: '&plaintiff'
 - p: [23, 24]
   k: '&Defendant'
-- p: [57, 59]
-  k: {t: '0', h: toggle}
 - p: [56, 60]
-  k: {t: '1', h: toggle}
+  k: {t: '0', h: toggle}
+- p: [57, 59]
+  k: {t: '4', h: toggle}
 - p: [42, 41]
   k: {t: '-', s: _}
 - p: [5, 4]
