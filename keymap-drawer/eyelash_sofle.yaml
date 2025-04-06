@@ -93,7 +93,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - '~'
-  - '&paragraphsym'
+  - {t: '0', s: )}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
@@ -106,7 +106,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - RGB SPD
-  - KP 0
+  - {t: '0', s: )}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -414,7 +414,7 @@ combos:
 - p: [56, 60]
   k: {t: '0', h: toggle}
 - p: [57, 59]
-  k: {t: '4', h: toggle}
+  k: {t: '1', h: toggle}
 - p: [42, 41]
   k: {t: '-', s: _}
 - p: [5, 4]
@@ -429,3 +429,7 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [42, 43]
   k: Ctl+Sft+V
+- p: [56, 28, 27]
+  k: '&paragraphsym'
+- p: [56, 28, 29]
+  k: '&sectionsym'
