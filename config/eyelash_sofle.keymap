@@ -86,12 +86,6 @@
     combos {
         compatible = "zmk,combos";
 
-        toggle-home-row {
-            timeout-ms = <50>;
-            bindings = <&to 0>;
-            key-positions = <56 60>;
-        };
-
         left_bracket {
             timeout-ms = <50>;
             bindings = <&kp LEFT_BRACKET>;
@@ -151,12 +145,12 @@
 
         layer0 {
             bindings = <&to 0>;
-            key-positions = <57 59>;
+            key-positions = <56 60>;
         };
 
-        layer1 {
-            bindings = <&tog 1>;
-            key-positions = <56 60>;
+        layer4 {
+            bindings = <&tog 4>;
+            key-positions = <57 59>;
         };
 
         dash {
