@@ -60,11 +60,11 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: '2', h: toggle}
-  - $$mdi:backspace-reverse-outline$$
+  - RGB TOG
   '1':
   - $$mdi:keyboard-esc$$
   - '&plaintiff'
@@ -174,7 +174,7 @@ layers:
   - '&emdash'
   - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '?'
+  - Ctl+Sft+V
   - KP MINUS
   - {t: '$$mdi:transfer$$', type: trans}
   - _
@@ -417,7 +417,17 @@ combos:
   k: {t: '0', h: toggle}
 - p: [56, 60]
   k: {t: '1', h: toggle}
-- p: [30, 29]
+- p: [42, 41]
   k: {t: '-', s: _}
-- p: [34, 35]
+- p: [5, 4]
+  k: CLCK
+- p: [42, 56, 41]
   k: '&emdash'
+- p: [28, 57]
+  k: Gui+Sft+S
+- p: [29, 57]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [30, 57]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [42, 43]
+  k: Ctl+Sft+V
