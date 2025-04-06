@@ -161,12 +161,38 @@
 
         dash {
             bindings = <&kp MINUS>;
-            key-positions = <30 29>;
+            key-positions = <42 41>;
+        };
+
+        capslock {
+            bindings = <&kp CLCK>;
+            key-positions = <5 4>;
+            timeout-ms = <50>;
         };
 
         emdash {
             bindings = <&emdash>;
-            key-positions = <34 35>;
+            key-positions = <42 56 41>;
+        };
+
+        snipping {
+            bindings = <&kp LG(LS(S))>;
+            key-positions = <28 57>;
+        };
+
+        del {
+            bindings = <&kp DEL>;
+            key-positions = <29 57>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <30 57>;
+        };
+
+        specialpaste {
+            bindings = <&kp LC(RS(V))>;
+            key-positions = <42 43>;
         };
     };
 
@@ -176,6 +202,7 @@
             #binding-cells = <0>;
             bindings = <&kt LEFT_ALT &kp KP_NUMBER_0 &kp KP_NUMBER_1 &kp KP_NUMBER_8 &kp KP_NUMBER_2 &kt LALT>;
             label = "paragraphsym";
+            tap-ms = <7>;
         };
 
         sectionsym: sectionsym {
@@ -183,6 +210,7 @@
             #binding-cells = <0>;
             bindings = <&kt LEFT_ALT &kp KP_NUMBER_0 &kp KP_NUMBER_1 &kp KP_NUMBER_6 &kp KP_NUMBER_7 &kt LALT>;
             label = "SECTIONSYM";
+            tap-ms = <2>;
         };
 
         emdash: emdash {
@@ -197,6 +225,8 @@
             #binding-cells = <0>;
             bindings = <&kp LS(P) &kp L &kp A &kp I &kp N &kp T &kp I &kp F &kp F>;
             label = "PLAINTIFF";
+            wait-ms = <0>;
+            tap-ms = <5>;
         };
 
         Defendant: Defendant {
@@ -204,6 +234,7 @@
             #binding-cells = <0>;
             bindings = <&kp LS(D) &kp E &kp F &kp E &kp N &kp D &kp A &kp N &kp T>;
             label = "DEFENDANT";
+            tap-ms = <2>;
         };
     };
 
@@ -212,11 +243,11 @@
 
         L0 {
             bindings = <
-&kp ESC     &kp N1          &kp N2              &kp N3           &kp N4                    &kp N5           &kp UP_ARROW     &kp N6           &kp N7                &kp N8           &kp N9               &kp N0                  &kp BACKSPACE
-&kp TILDE   &kp Q           &kp W               &kp E            &kp R                     &kp T            &kp DOWN_ARROW   &kp Y            &kp U                 &kp I            &kp O                &kp P                   &kp BSLH
-&kp TAB     &hmmods LGUI A  &hmmods LEFT_ALT S  &hmmods LCTRL D  &hmmods LEFT_SHIFT F      &kp G            &kp LEFT_ARROW   &kp H            &hmmods LEFT_SHIFT J  &hmmods LCTRL K  &hmmods RIGHT_ALT L  &hmmods RIGHT_GUI SEMI  &kp APOS
-&kp LSHFT   &kp Z           &kp X               &kp C            &kp V                     &kp B            &kp RIGHT_ARROW  &kp N            &kp M                 &kp COMMA        &kp DOT              &kp FSLH                &kp ENTER
-&kp C_MUTE  &kp LEFT_ALT    &tog 1              &kp LCTRL        &hmmods LEFT_SHIFT SPACE  &kp BACKSPACE    &kp ENTER        &kp RIGHT_SHIFT  &kp ENTER             &kp DELETE       &tog 2               &kp DELETE
+&kp ESC     &kp N1          &kp N2              &kp N3           &kp N4                    &kp N5           &kp UP_ARROW     &kp N6      &kp N7                &kp N8           &kp N9               &kp N0                  &kp BACKSPACE
+&kp TILDE   &kp Q           &kp W               &kp E            &kp R                     &kp T            &kp DOWN_ARROW   &kp Y       &kp U                 &kp I            &kp O                &kp P                   &kp BSLH
+&kp TAB     &hmmods LGUI A  &hmmods LEFT_ALT S  &hmmods LCTRL D  &hmmods LEFT_SHIFT F      &kp G            &kp LEFT_ARROW   &kp H       &hmmods LEFT_SHIFT J  &hmmods LCTRL K  &hmmods RIGHT_ALT L  &hmmods RIGHT_GUI SEMI  &kp APOS
+&kp LSHFT   &kp Z           &kp X               &kp C            &kp V                     &kp B            &kp RIGHT_ARROW  &kp N       &kp M                 &kp COMMA        &kp DOT              &kp FSLH                &kp ENTER
+&kp C_MUTE  &kp LEFT_ALT    &tog 1              &kp LCTRL        &hmmods LEFT_SHIFT SPACE  &kp BACKSPACE    &kp ENTER        &kp DELETE  &kp ENTER             &kp RIGHT_SHIFT  &tog 2               &rgb_ug RGB_TOG
             >;
 
             display-name = "0";
@@ -239,11 +270,11 @@
         L2_symbols {
             display-name = "2";
             bindings = <
-&trans  &trans         &trans       &trans     &trans        &trans          &trans  &trans          &trans     &trans            &trans             &trans        &trans
-&trans  &kp EXCL       &kp AT       &kp POUND  &kp DLLR      &kp PERCENT     &trans  &kp CARET       &kp AMPS   &kp STAR          &kp LPAR           &kp RPAR      &trans
-&trans  &paragraphsym  &sectionsym  &kp TILDE  &kp MINUS     &kp PLUS        &trans  &kp EQUAL       &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp COLON     &trans
-&trans  &emdash        &kp SLASH    &trans     &kp QUESTION  &kp KP_MINUS    &trans  &kp UNDERSCORE  &emdash    &kp LESS_THAN     &kp GREATER_THAN   &kp QUESTION  &trans
-&trans  &trans         &trans       &trans     &trans        &trans          &trans  &trans          &trans     &trans            &trans             &trans
+&trans  &trans         &trans       &trans     &trans         &trans          &trans  &trans          &trans     &trans            &trans             &trans        &trans
+&trans  &kp EXCL       &kp AT       &kp POUND  &kp DLLR       &kp PERCENT     &trans  &kp CARET       &kp AMPS   &kp STAR          &kp LPAR           &kp RPAR      &trans
+&trans  &paragraphsym  &sectionsym  &kp TILDE  &kp MINUS      &kp PLUS        &trans  &kp EQUAL       &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp COLON     &trans
+&trans  &emdash        &kp SLASH    &trans     &kp LC(RS(V))  &kp KP_MINUS    &trans  &kp UNDERSCORE  &emdash    &kp LESS_THAN     &kp GREATER_THAN   &kp QUESTION  &trans
+&trans  &trans         &trans       &trans     &trans         &trans          &trans  &trans          &trans     &trans            &trans             &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
