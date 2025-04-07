@@ -198,6 +198,16 @@
             bindings = <&sectionsym>;
             key-positions = <56 28 29>;
         };
+
+        copy {
+            bindings = <&kp K_COPY>;
+            key-positions = <42 55>;
+        };
+
+        paste {
+            bindings = <&kp K_PASTE>;
+            key-positions = <55 43>;
+        };
     };
 
     macros {
