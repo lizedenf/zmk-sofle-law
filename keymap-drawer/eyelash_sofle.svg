@@ -788,6 +788,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="203" y="177" width="28" height="26" class="combo"/>
 <text x="217" y="190" class="combo tap"><tspan style="font-size: 60%">&amp;sections…</tspan></text>
 </g>
+<g class="combo combopos-21">
+<rect rx="6" ry="6" x="210" y="214" width="28" height="26" class="combo"/>
+<text x="224" y="228" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-22">
+<rect rx="6" ry="6" x="238" y="218" width="28" height="26" class="combo"/>
+<text x="252" y="231" class="combo tap">PASTE</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-1">
@@ -1277,6 +1285,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="203" y="177" width="28" height="26" class="combo"/>
 <text x="217" y="190" class="combo tap"><tspan style="font-size: 60%">&amp;sections…</tspan></text>
 </g>
+<g class="combo combopos-21">
+<rect rx="6" ry="6" x="210" y="214" width="28" height="26" class="combo"/>
+<text x="224" y="228" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-22">
+<rect rx="6" ry="6" x="238" y="218" width="28" height="26" class="combo"/>
+<text x="252" y="231" class="combo tap">PASTE</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-2">
@@ -1731,6 +1747,14 @@ rect.held, rect.combo.held {
 <path d="M217,190 l-61,-34" class="combo"/>
 <rect rx="6" ry="6" x="203" y="177" width="28" height="26" class="combo"/>
 <text x="217" y="190" class="combo tap"><tspan style="font-size: 60%">&amp;sections…</tspan></text>
+</g>
+<g class="combo combopos-21">
+<rect rx="6" ry="6" x="210" y="214" width="28" height="26" class="combo"/>
+<text x="224" y="228" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-22">
+<rect rx="6" ry="6" x="238" y="218" width="28" height="26" class="combo"/>
+<text x="252" y="231" class="combo tap">PASTE</text>
 </g>
 </g>
 </g>
@@ -2219,6 +2243,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="203" y="177" width="28" height="26" class="combo"/>
 <text x="217" y="190" class="combo tap"><tspan style="font-size: 60%">&amp;sections…</tspan></text>
 </g>
+<g class="combo combopos-21">
+<rect rx="6" ry="6" x="210" y="214" width="28" height="26" class="combo"/>
+<text x="224" y="228" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-22">
+<rect rx="6" ry="6" x="238" y="218" width="28" height="26" class="combo"/>
+<text x="252" y="231" class="combo tap">PASTE</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-4">
@@ -2679,6 +2711,14 @@ rect.held, rect.combo.held {
 <path d="M217,190 l-61,-34" class="combo"/>
 <rect rx="6" ry="6" x="203" y="177" width="28" height="26" class="combo"/>
 <text x="217" y="190" class="combo tap"><tspan style="font-size: 60%">&amp;sections…</tspan></text>
+</g>
+<g class="combo combopos-21">
+<rect rx="6" ry="6" x="210" y="214" width="28" height="26" class="combo"/>
+<text x="224" y="228" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-22">
+<rect rx="6" ry="6" x="238" y="218" width="28" height="26" class="combo"/>
+<text x="252" y="231" class="combo tap">PASTE</text>
 </g>
 </g>
 </g>
@@ -3149,6 +3189,14 @@ rect.held, rect.combo.held {
 <path d="M217,190 l-61,-34" class="combo"/>
 <rect rx="6" ry="6" x="203" y="177" width="28" height="26" class="combo"/>
 <text x="217" y="190" class="combo tap"><tspan style="font-size: 60%">&amp;sections…</tspan></text>
+</g>
+<g class="combo combopos-21">
+<rect rx="6" ry="6" x="210" y="214" width="28" height="26" class="combo"/>
+<text x="224" y="228" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-22">
+<rect rx="6" ry="6" x="238" y="218" width="28" height="26" class="combo"/>
+<text x="252" y="231" class="combo tap">PASTE</text>
 </g>
 </g>
 </g>

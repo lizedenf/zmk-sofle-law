@@ -433,3 +433,7 @@ combos:
   k: '&paragraphsym'
 - p: [56, 28, 29]
   k: '&sectionsym'
+- p: [42, 55]
+  k: COPY
+- p: [55, 43]
+  k: PASTE
