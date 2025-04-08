@@ -407,9 +407,9 @@ combos:
   k: {t: \, s: '|'}
 - p: [55, 61]
   k: {t: '3', h: toggle}
-- p: [14, 15]
+- p: [14, 56]
   k: '&plaintiff'
-- p: [23, 24]
+- p: [15, 56]
   k: '&Defendant'
 - p: [56, 60]
   k: {t: '0', h: toggle}
