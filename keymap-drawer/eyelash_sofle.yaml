@@ -80,7 +80,7 @@ layers:
   - )
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
-  - '&sectionsym'
+  - {t: ',', s: <}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -92,7 +92,7 @@ layers:
   - END
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - '~'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
@@ -106,16 +106,16 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - RGB SPD
-  - {t: '0', s: )}
+  - {t: ',', s: <}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: ., s: '>'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
-  - Ctl+C
-  - Ctl+V
-  - Ctl+Sft+V
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
@@ -437,3 +437,5 @@ combos:
   k: COPY
 - p: [55, 43]
   k: PASTE
+- p: [39, 56]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
