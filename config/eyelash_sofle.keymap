@@ -179,11 +179,6 @@
             key-positions = <29 57>;
         };
 
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <30 57>;
-        };
-
         specialpaste {
             bindings = <&kp LC(RS(V))>;
             key-positions = <42 43>;
