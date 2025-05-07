@@ -425,8 +425,6 @@ combos:
   k: Gui+Sft+S
 - p: [29, 57]
   k: $$mdi:backspace-reverse-outline$$
-- p: [30, 57]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [42, 43]
   k: Ctl+Sft+V
 - p: [56, 28, 27]
