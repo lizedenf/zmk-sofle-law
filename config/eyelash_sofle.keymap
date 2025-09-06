@@ -94,6 +94,26 @@
         flavor = "tap-preferred";
     };
 
+    toggle1: toggle1 {
+        compatible = "zmk,behavior-toggle-layer";
+        label = "TOGGLE1";
+        #binding-cells = <1>;
+    };
+
+    DTCaps: DTCaps {
+        compatible = "zmk,behavior-tap-dance";
+        label = "DTCAPS";
+        #binding-cells = <0>;
+        bindings = <&kp COMMA>, <&caps_word>, <&kp CLCK>;
+    };
+
+    DTlayers: DTlayers {
+        compatible = "zmk,behavior-tap-dance";
+        label = "DTLAYERS";
+        #binding-cells = <0>;
+        bindings = <&tog 1>, <&tog 2>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -121,9 +141,9 @@
             key-positions = <33 34>;
         };
 
-        caps {
+        dtlayers {
             timeout-ms = <50>;
-            bindings = <&caps_word>;
+            bindings = <&DTlayers>;
             key-positions = <17 18>;
         };
 
@@ -224,6 +244,12 @@
             bindings = <&kp LC(Z)>;
             key-positions = <40 55>;
         };
+
+        DTlayer2 {
+            bindings = <&DTlayers>;
+            key-positions = <21 20>;
+            timeout-ms = <50>;
+        };
     };
 
     macros {
@@ -276,7 +302,7 @@
 &kp ESC     &kp N1          &kp N2              &kp N3            &kp N4                    &kp N5           &kp UP_ARROW     &kp N6      &kp N7                     &kp N8                  &kp N9               &kp N0                  &kp BACKSPACE
 &kp TILDE   &kp Q           &kp W               &kp E             &kp R                     &kp T            &kp DOWN_ARROW   &kp Y       &kp U                      &kp I                   &kp O                &kp P                   &kp BSLH
 &kp TAB     &hmmods LGUI A  &hmmods LEFT_ALT S  &hmmods LCTRL D   &hmmods LEFT_SHIFT F      &kp G            &kp LEFT_ARROW   &kp H       &hmmods LEFT_SHIFT J       &hmmods LCTRL K         &hmmods RIGHT_ALT L  &hmmods RIGHT_GUI SEMI  &kp APOS
-&kp LSHFT   &kp Z           &kp X               &kp C             &kp V                     &kp B            &kp RIGHT_ARROW  &kp N       &kp M                      &kp COMMA               &kp DOT              &kp FSLH                &kp ENTER
+&kp LSHFT   &kp Z           &kp X               &kp C             &kp V                     &kp B            &kp RIGHT_ARROW  &kp N       &kp M                      &DTCaps                 &kp DOT              &kp FSLH                &kp ENTER
 &kp C_MUTE  &kp LEFT_ALT    &lt 2 ENTER         &hmlayer LCTRL 1  &hmmods LEFT_SHIFT SPACE  &kp BACKSPACE    &kp ENTER        &kp DELETE  &hmmods RIGHT_SHIFT ENTER  &hmlayer RIGHT_SHIFT 2  &lt 1 SPACE          &rgb_ug RGB_TOG
             >;
 
