@@ -49,7 +49,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - N
   - M
-  - {t: ',', s: <}
+  - '&DTCaps'
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -400,7 +400,7 @@ combos:
 - p: [33, 34]
   k: )
 - p: [17, 18]
-  k: $$mdi:alpha-w-box$$
+  k: '&DTlayers'
 - p: [31, 33]
   k: '|'
 - p: [18, 20]
@@ -439,3 +439,5 @@ combos:
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [40, 55]
   k: Ctl+Z
+- p: [21, 20]
+  k: '&DTlayers'
