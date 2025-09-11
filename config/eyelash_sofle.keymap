@@ -114,12 +114,26 @@
         bindings = <&tog 1>, <&tog 2>;
     };
 
+    brkt: brkt {
+        compatible = "zmk,behavior-tap-dance";
+        label = "BRKT";
+        #binding-cells = <0>;
+        bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
+    };
+
+    paren: paren {
+        compatible = "zmk,behavior-tap-dance";
+        label = "PAREN";
+        #binding-cells = <0>;
+        bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
         left_bracket {
             timeout-ms = <50>;
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&brkt>;
             key-positions = <43 44>;
         };
 
@@ -131,7 +145,7 @@
 
         left_paren {
             timeout-ms = <50>;
-            bindings = <&kp LEFT_PARENTHESIS>;
+            bindings = <&paren>;
             key-positions = <30 31>;
         };
 
