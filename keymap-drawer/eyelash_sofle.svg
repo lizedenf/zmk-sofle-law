@@ -66,6 +66,9 @@
 <svg id="mdi:menu-up">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-menu-up" viewBox="0 0 24 24"><path d="M7,15L12,10L17,15H7Z" /></svg>
 </svg>
+<svg id="mdi:minus-circle-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-minus-circle-outline" viewBox="0 0 24 24"><path d="M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M7,13H17V11H7" /></svg>
+</svg>
 <svg id="mdi:mouse">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-mouse" viewBox="0 0 24 24"><path d="M11,1.07C7.05,1.56 4,4.92 4,9H11M4,15A8,8 0 0,0 12,23A8,8 0 0,0 20,15V11H4M13,1.07V9H20C20,4.92 16.94,1.56 13,1.07Z" /></svg>
 </svg>
@@ -810,6 +813,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
 <text x="644" y="91" class="combo tap"><tspan style="font-size: 67%">&amp;DTlayers</tspan></text>
 </g>
+<g class="combo none combopos-25">
+<path d="M140,96 l-38,11" class="combo"/>
+<path d="M140,96 l38,-8" class="combo"/>
+<rect rx="6" ry="6" x="126" y="83" width="28" height="26" class="combo none"/>
+<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="131" y="87" height="18" width="18.0" class="combo none tap glyph mdi:minus-circle-outline"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-1">
@@ -1319,6 +1328,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
 <text x="644" y="91" class="combo tap"><tspan style="font-size: 67%">&amp;DTlayers</tspan></text>
 </g>
+<g class="combo none combopos-25">
+<path d="M140,96 l-38,11" class="combo"/>
+<path d="M140,96 l38,-8" class="combo"/>
+<rect rx="6" ry="6" x="126" y="83" width="28" height="26" class="combo none"/>
+<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="131" y="87" height="18" width="18.0" class="combo none tap glyph mdi:minus-circle-outline"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-2">
@@ -1794,6 +1809,12 @@ rect.held, rect.combo.held {
 <g class="combo combopos-24">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
 <text x="644" y="91" class="combo tap"><tspan style="font-size: 67%">&amp;DTlayers</tspan></text>
+</g>
+<g class="combo none combopos-25">
+<path d="M140,96 l-38,11" class="combo"/>
+<path d="M140,96 l38,-8" class="combo"/>
+<rect rx="6" ry="6" x="126" y="83" width="28" height="26" class="combo none"/>
+<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="131" y="87" height="18" width="18.0" class="combo none tap glyph mdi:minus-circle-outline"/>
 </g>
 </g>
 </g>
@@ -2304,6 +2325,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
 <text x="644" y="91" class="combo tap"><tspan style="font-size: 67%">&amp;DTlayers</tspan></text>
 </g>
+<g class="combo none combopos-25">
+<path d="M140,96 l-38,11" class="combo"/>
+<path d="M140,96 l38,-8" class="combo"/>
+<rect rx="6" ry="6" x="126" y="83" width="28" height="26" class="combo none"/>
+<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="131" y="87" height="18" width="18.0" class="combo none tap glyph mdi:minus-circle-outline"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-4">
@@ -2786,6 +2813,12 @@ rect.held, rect.combo.held {
 <g class="combo combopos-24">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
 <text x="644" y="91" class="combo tap"><tspan style="font-size: 67%">&amp;DTlayers</tspan></text>
+</g>
+<g class="combo none combopos-25">
+<path d="M140,96 l-38,11" class="combo"/>
+<path d="M140,96 l38,-8" class="combo"/>
+<rect rx="6" ry="6" x="126" y="83" width="28" height="26" class="combo none"/>
+<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="131" y="87" height="18" width="18.0" class="combo none tap glyph mdi:minus-circle-outline"/>
 </g>
 </g>
 </g>
@@ -3278,6 +3311,12 @@ rect.held, rect.combo.held {
 <g class="combo combopos-24">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
 <text x="644" y="91" class="combo tap"><tspan style="font-size: 67%">&amp;DTlayers</tspan></text>
+</g>
+<g class="combo none combopos-25">
+<path d="M140,96 l-38,11" class="combo"/>
+<path d="M140,96 l38,-8" class="combo"/>
+<rect rx="6" ry="6" x="126" y="83" width="28" height="26" class="combo none"/>
+<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="131" y="87" height="18" width="18.0" class="combo none tap glyph mdi:minus-circle-outline"/>
 </g>
 </g>
 </g>

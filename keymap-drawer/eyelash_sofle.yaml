@@ -441,3 +441,5 @@ combos:
   k: Ctl+Z
 - p: [21, 20]
   k: '&DTlayers'
+- p: [14, 15, 16]
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
