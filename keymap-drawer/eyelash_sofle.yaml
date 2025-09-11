@@ -392,11 +392,11 @@ layers:
   - $$mdi:backspace-reverse-outline$$
 combos:
 - p: [43, 44]
-  k: {t: '[', s: '{'}
+  k: '&brkt'
 - p: [46, 47]
   k: {t: ']', s: '}'}
 - p: [30, 31]
-  k: (
+  k: '&paren'
 - p: [33, 34]
   k: )
 - p: [17, 18]
