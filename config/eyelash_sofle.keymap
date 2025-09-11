@@ -250,6 +250,11 @@
             key-positions = <21 20>;
             timeout-ms = <50>;
         };
+
+        Lens {
+            bindings = <&none>;
+            key-positions = <14 15 16>;
+        };
     };
 
     macros {
@@ -291,6 +296,13 @@
             bindings = <&kp LS(D) &kp E &kp F &kp E &kp N &kp D &kp A &kp N &kp T>;
             label = "DEFENDANT";
             tap-ms = <2>;
+        };
+
+        SearchLens: SearchLens {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(E) &kp S>;
+            label = "SEARCHLENS";
         };
     };
 
