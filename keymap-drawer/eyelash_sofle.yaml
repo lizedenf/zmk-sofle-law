@@ -15,7 +15,7 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '~'
-  - Q
+  - '&Qesc'
   - W
   - E
   - R
@@ -442,4 +442,4 @@ combos:
 - p: [21, 20]
   k: '&DTlayers'
 - p: [14, 15, 16]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  k: '&SearchLens'
