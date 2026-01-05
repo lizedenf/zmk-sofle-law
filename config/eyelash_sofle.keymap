@@ -353,7 +353,7 @@
 &Tildeesc   &kp Q           &kp W               &kp E             &kp R                     &kp T            &kp DOWN_ARROW   &kp Y       &kp U                      &kp I            &kp O                &kp P                   &kp BSLH
 &kp TAB     &hmmods LGUI A  &hmmods LEFT_ALT S  &hmmods LCTRL D   &hmmods LEFT_SHIFT F      &kp G            &kp LEFT_ARROW   &kp H       &hmmods LEFT_SHIFT J       &hmmods LCTRL K  &hmmods RIGHT_ALT L  &hmmods RIGHT_GUI SEMI  &kp APOS
 &kp LSHFT   &kp Z           &kp X               &kp C             &kp V                     &kp B            &kp RIGHT_ARROW  &kp N       &kp M                      &DTCaps          &kp DOT              &kp FSLH                &kp ENTER
-&kp C_MUTE  &kp LEFT_ALT    &lt 2 ENTER         &hmlayer LCTRL 0  &hmmods LEFT_SHIFT SPACE  &kp BACKSPACE    &kp ENTER        &kp DELETE  &hmmods RIGHT_SHIFT ENTER  &DTlayers        &lt 1 LC(RS(T))      &rgb_ug RGB_TOG
+&kp C_MUTE  &kp LEFT_ALT    &lt 2 ENTER         &hmlayer LCTRL 0  &hmmods LEFT_SHIFT SPACE  &kp BACKSPACE    &kp ENTER        &kp DELETE  &hmmods RIGHT_SHIFT ENTER  &twolayers 1 2   &lt 1 LC(RS(T))      &rgb_ug RGB_TOG
             >;
 
             display-name = "0";
