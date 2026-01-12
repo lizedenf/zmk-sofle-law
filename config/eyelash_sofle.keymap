@@ -145,11 +145,11 @@
         tapping-term-ms = <150>;
     };
 
-    new_behavior: new_behavior {
+    u_home_end: u_home_end {
         compatible = "zmk,behavior-tap-dance";
-        label = "NEW_BEHAVIOR";
+        label = "U_HOME_END";
         #binding-cells = <0>;
-        bindings = <&tog 1>, <&tog 2>, <&to 0>;
+        bindings = <&kp U>, <&kp HOME>, <&kp END>;
     };
 
     combos {
@@ -349,11 +349,11 @@
 
         L0 {
             bindings = <
-&kp ESC     &kp N1          &kp N2              &kp N3            &kp N4                    &kp N5           &kp UP_ARROW     &kp N6      &kp N7                     &kp N8           &kp N9               &kp N0                  &kp BACKSPACE
-&Tildeesc   &kp Q           &kp W               &kp E             &kp R                     &kp T            &kp DOWN_ARROW   &kp Y       &kp U                      &kp I            &kp O                &kp P                   &kp BSLH
-&kp TAB     &hmmods LGUI A  &hmmods LEFT_ALT S  &hmmods LCTRL D   &hmmods LEFT_SHIFT F      &kp G            &kp LEFT_ARROW   &kp H       &hmmods LEFT_SHIFT J       &hmmods LCTRL K  &hmmods RIGHT_ALT L  &hmmods RIGHT_GUI SEMI  &kp APOS
-&kp LSHFT   &kp Z           &kp X               &kp C             &kp V                     &kp B            &kp RIGHT_ARROW  &kp N       &kp M                      &DTCaps          &kp DOT              &kp FSLH                &kp ENTER
-&kp C_MUTE  &kp LEFT_ALT    &lt 2 ENTER         &hmlayer LCTRL 0  &hmmods LEFT_SHIFT SPACE  &kp BACKSPACE    &kp ENTER        &kp DELETE  &hmmods RIGHT_SHIFT ENTER  &twolayers 1 2   &lt 1 LC(RS(T))      &rgb_ug RGB_TOG
+&kp ESC     &kp N1          &kp N2              &kp N3            &kp N4                    &kp N5           &kp UP_ARROW     &kp N6      &kp N7                         &kp N8           &kp N9               &kp N0                  &kp BACKSPACE
+&Tildeesc   &kp Q           &kp W               &kp E             &kp R                     &kp T            &kp DOWN_ARROW   &kp Y       &kp U                          &kp I            &kp O                &kp P                   &kp BSLH
+&kp TAB     &hmmods LGUI A  &hmmods LEFT_ALT S  &hmmods LCTRL D   &hmmods LEFT_SHIFT F      &kp G            &kp LEFT_ARROW   &kp H       &hmmods LEFT_SHIFT J           &hmmods LCTRL K  &hmmods RIGHT_ALT L  &hmmods RIGHT_GUI SEMI  &kp APOS
+&kp LSHFT   &kp Z           &kp X               &kp C             &kp V                     &kp B            &kp RIGHT_ARROW  &kp N       &kp M                          &DTCaps          &kp DOT              &kp FSLH                &kp ENTER
+&kp C_MUTE  &kp LEFT_ALT    &lt 2 ENTER         &hmlayer LCTRL 0  &hmmods LEFT_SHIFT SPACE  &kp BACKSPACE    &kp ENTER        &kp DELETE  &hmmods LC(RIGHT_SHIFT) ENTER  &twolayers 1 2   &lt 1 LC(RS(T))      &rgb_ug RGB_TOG
             >;
 
             display-name = "0";
@@ -362,11 +362,11 @@
 
         L1-num-nav {
             bindings = <
-&trans         &kp PLUS   &kp LEFT_BRACKET  &kp PLUS  &kp MINUS  &kp EQUAL    &mmv MOVE_UP     &kp F6           &kp F7    &kp F8    &kp LPAR   &kp RPAR   &trans
-&trans         &kp SQT    &kp N7            &kp N8    &kp N9     &kp SLASH    &mmv MOVE_DOWN   &kp PG_UP        &kp HOME  &kp UP    &kp END    &kp MINUS  &trans
-&trans         &kp N0     &kp N4            &kp N5    &kp N6     &kp COLON    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT  &kp DOWN  &kp RIGHT  &trans     &trans
-&kp LC(ENTER)  &kp COMMA  &kp N1            &kp N2    &kp N3     &kp DOT      &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &trans    &trans    &trans     &trans     &trans
-&kp C_MUTE     &kp N0     &trans            &trans    &trans     &trans       &mkp LCLK        &trans           &trans    &trans    &trans     &trans
+&trans         &kp PLUS   &kp LEFT_BRACKET  &kp PLUS  &kp MINUS  &kp EQUAL    &mmv MOVE_UP     &kp F6           &kp F7                  &kp F8    &kp LPAR           &kp RPAR   &trans
+&trans         &kp SQT    &kp N7            &kp N8    &kp N9     &kp SLASH    &mmv MOVE_DOWN   &kp PG_UP        &kp HOME                &kp UP    &kp END            &kp MINUS  &trans
+&trans         &kp N0     &kp N4            &kp N5    &kp N6     &kp COLON    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT                &kp DOWN  &kp RIGHT          &trans     &trans
+&kp LC(ENTER)  &kp COMMA  &kp N1            &kp N2    &kp N3     &kp DOT      &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &kp LC(LS(LEFT_ARROW))  &trans    &kp LS(LC(RIGHT))  &trans     &trans
+&kp C_MUTE     &kp N0     &trans            &trans    &trans     &trans       &mkp LCLK        &trans           &trans                  &trans    &trans             &trans
             >;
 
             display-name = "1";
