@@ -61,7 +61,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
   - {t: '2', h: '1'}
   - {t: Ctl+Sft+T, h: '1'}
   - RGB TOG
@@ -113,9 +113,9 @@ layers:
   - {t: ., s: '>'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
+  - Ctl+Sft+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Ctl+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
