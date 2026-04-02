@@ -290,8 +290,8 @@
             key-positions = <40 55>;
         };
 
-        DTlayer2 {
-            bindings = <&DTlayers>;
+        L2 {
+            bindings = <&tog 2>;
             key-positions = <21 20>;
             timeout-ms = <50>;
         };
