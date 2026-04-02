@@ -807,7 +807,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-24">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
-<text x="644" y="91" class="combo tap"><tspan style="font-size: 67%">&amp;DTlayers</tspan></text>
+<a href="#x_x">
+<text x="644" y="91" class="combo tap layer-activator">2</text>
+</a><text x="644" y="102" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-25">
 <path d="M140,96 l-38,11" class="combo"/>
@@ -1315,7 +1317,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-24">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
-<text x="644" y="91" class="combo tap"><tspan style="font-size: 67%">&amp;DTlayers</tspan></text>
+<a href="#x_x">
+<text x="644" y="91" class="combo tap layer-activator">2</text>
+</a><text x="644" y="102" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-25">
 <path d="M140,96 l-38,11" class="combo"/>
@@ -1796,7 +1800,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-24">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
-<text x="644" y="91" class="combo tap"><tspan style="font-size: 67%">&amp;DTlayers</tspan></text>
+<a href="#x_x">
+<text x="644" y="91" class="combo tap layer-activator">2</text>
+</a><text x="644" y="102" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-25">
 <path d="M140,96 l-38,11" class="combo"/>
@@ -2310,7 +2316,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-24">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
-<text x="644" y="91" class="combo tap"><tspan style="font-size: 67%">&amp;DTlayers</tspan></text>
+<a href="#x_x">
+<text x="644" y="91" class="combo tap layer-activator">2</text>
+</a><text x="644" y="102" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-25">
 <path d="M140,96 l-38,11" class="combo"/>
@@ -2798,7 +2806,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-24">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
-<text x="644" y="91" class="combo tap"><tspan style="font-size: 67%">&amp;DTlayers</tspan></text>
+<a href="#x_x">
+<text x="644" y="91" class="combo tap layer-activator">2</text>
+</a><text x="644" y="102" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-25">
 <path d="M140,96 l-38,11" class="combo"/>
@@ -3295,7 +3305,9 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-24">
 <rect rx="6" ry="6" x="630" y="78" width="28" height="26" class="combo"/>
-<text x="644" y="91" class="combo tap"><tspan style="font-size: 67%">&amp;DTlayers</tspan></text>
+<a href="#x_x">
+<text x="644" y="91" class="combo tap layer-activator">2</text>
+</a><text x="644" y="102" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-25">
 <path d="M140,96 l-38,11" class="combo"/>

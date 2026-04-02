@@ -440,6 +440,6 @@ combos:
 - p: [40, 55]
   k: Ctl+Z
 - p: [21, 20]
-  k: '&DTlayers'
+  k: {t: '2', h: toggle}
 - p: [14, 15, 16]
   k: '&SearchLens'
