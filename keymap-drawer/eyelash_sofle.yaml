@@ -25,7 +25,7 @@ layers:
   - '&u_home_end'
   - I
   - O
-  - P
+  - '&parasec'
   - {t: \, s: '|'}
   - $$mdi:keyboard-tab$$
   - {t: A, h: LGUI}
@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
-  - '&DTlayers'
+  - {t: '1', h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
   - {t: Ctl+Sft+T, h: '1'}
   - RGB TOG
   '1':
