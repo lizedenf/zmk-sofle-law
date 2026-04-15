@@ -25,7 +25,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - '&parasection'
   - {t: \, s: '|'}
   - $$mdi:keyboard-tab$$
   - {t: A, h: LGUI}
@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - '&DTlayers'
+  - {t: '1', h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
   - {t: Ctl+Sft+T, h: '1'}
   - RGB TOG
   '1':
@@ -400,7 +400,7 @@ combos:
 - p: [33, 34]
   k: )
 - p: [17, 18]
-  k: '&DTlayers'
+  k: {t: '1', h: toggle}
 - p: [31, 33]
   k: '|'
 - p: [18, 20]
@@ -412,7 +412,7 @@ combos:
 - p: [15, 56]
   k: '&Defendant'
 - p: [56, 60]
-  k: {t: '0', h: toggle}
+  k: {t: '2', h: toggle}
 - p: [57, 59]
   k: {t: '1', h: toggle}
 - p: [42, 41]
@@ -440,6 +440,6 @@ combos:
 - p: [40, 55]
   k: Ctl+Z
 - p: [21, 20]
-  k: '&DTlayers'
+  k: {t: '2', h: toggle}
 - p: [14, 15, 16]
   k: '&SearchLens'
