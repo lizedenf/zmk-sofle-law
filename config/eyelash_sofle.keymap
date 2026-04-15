@@ -159,10 +159,10 @@
         bindings = <&kp BACKSPACE>, <&kp ENTER>;
     };
 
-    skto: skto {
+    sktog: sktog {
         compatible = "zmk,behavior-hold-tap";
-        label = "SKTO";
-        bindings = <&sk>, <&to>;
+        label = "SKTOG";
+        bindings = <&sk>, <&tog>;
 
         #binding-cells = <2>;
         tapping-term-ms = <200>;
@@ -372,11 +372,11 @@
 
         L0 {
             bindings = <
-&kp ESC     &kp N1          &kp N2              &kp N3            &kp N4                    &kp N5         &kp UP_ARROW     &kp N6      &kp N7                         &kp N8                  &kp N9               &kp N0                  &kp BACKSPACE
-&Tildeesc   &kp Q           &kp W               &kp E             &kp R                     &kp T          &kp DOWN_ARROW   &kp Y       &u_home_end                    &kp I                   &kp O                &parasec                &kp BSLH
-&kp TAB     &hmmods LGUI A  &hmmods LEFT_ALT S  &hmmods LCTRL D   &hmmods LEFT_SHIFT F      &kp G          &kp LEFT_ARROW   &kp H       &hmmods LEFT_SHIFT J           &hmmods LCTRL K         &hmmods RIGHT_ALT L  &hmmods RIGHT_GUI SEMI  &kp APOS
-&kp LSHFT   &kp Z           &kp X               &kp C             &kp V                     &kp B          &kp RIGHT_ARROW  &kp N       &kp M                          &DTCaps                 &kp DOT              &kp FSLH                &kp ENTER
-&kp C_MUTE  &kp LEFT_ALT    &lt 2 ENTER         &hmlayer LCTRL 0  &hmmods LEFT_SHIFT SPACE  &back_enter    &kp ENTER        &kp DELETE  &hmmods RC(RIGHT_SHIFT) ENTER  &skto LC(LEFT_SHIFT) 1  &lt 1 LC(RS(T))      &rgb_ug RGB_TOG
+&kp ESC     &kp N1          &kp N2              &kp N3            &kp N4                    &kp N5         &kp UP_ARROW     &kp N6      &kp N7                         &kp N8                   &kp N9               &kp N0                  &kp BACKSPACE
+&Tildeesc   &kp Q           &kp W               &kp E             &kp R                     &kp T          &kp DOWN_ARROW   &kp Y       &u_home_end                    &kp I                    &kp O                &parasec                &kp BSLH
+&kp TAB     &hmmods LGUI A  &hmmods LEFT_ALT S  &hmmods LCTRL D   &hmmods LEFT_SHIFT F      &kp G          &kp LEFT_ARROW   &kp H       &hmmods LEFT_SHIFT J           &hmmods LCTRL K          &hmmods RIGHT_ALT L  &hmmods RIGHT_GUI SEMI  &kp APOS
+&kp LSHFT   &kp Z           &kp X               &kp C             &kp V                     &kp B          &kp RIGHT_ARROW  &kp N       &kp M                          &DTCaps                  &kp DOT              &kp FSLH                &kp ENTER
+&kp C_MUTE  &kp LEFT_ALT    &lt 2 ENTER         &hmlayer LCTRL 0  &hmmods LEFT_SHIFT SPACE  &back_enter    &kp ENTER        &kp DELETE  &hmmods RC(RIGHT_SHIFT) ENTER  &sktog LC(LEFT_SHIFT) 1  &lt 1 LC(RS(T))      &rgb_ug RGB_TOG
             >;
 
             display-name = "0";
