@@ -397,8 +397,6 @@ combos:
   k: {t: ']', s: '}'}
 - p: [30, 31]
   k: '&paren'
-- p: [33, 34]
-  k: )
 - p: [17, 18]
   k: '&DTlayers'
 - p: [31, 33]
@@ -443,5 +441,5 @@ combos:
   k: {t: '2', h: toggle}
 - p: [14, 15, 16]
   k: '&SearchLens'
-- p: [22, 23]
+- p: [33, 34]
   k: '&parasec'
