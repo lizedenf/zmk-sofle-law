@@ -196,12 +196,6 @@
             key-positions = <30 31>;
         };
 
-        right_paren {
-            timeout-ms = <50>;
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <33 34>;
-        };
-
         dtlayers {
             timeout-ms = <50>;
             bindings = <&DTlayers>;
@@ -319,7 +313,7 @@
 
         parasec {
             bindings = <&parasec>;
-            key-positions = <22 23>;
+            key-positions = <33 34>;
         };
     };
 
